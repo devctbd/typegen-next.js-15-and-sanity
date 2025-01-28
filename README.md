@@ -19,7 +19,7 @@ Add the following command to the `scripts` section of your `package.json` file:
 ```
 
 Example screenshot for reference:  
-![Package.json Configuration Example](https://i.ibb.co.com/x1zRStR/Screenshot-16.png)
+![Example screenshot for reference](https://i.ibb.co.com/x1zRStR/Screenshot-16.png)
 
 ---
 
@@ -35,11 +35,11 @@ npm run typegen
 
 ### Result
 
-Once the command is executed successfully, you will see the following confirmation:
+After successfully executing the command, you will receive the following confirmation:
 
-✅ **Generated TypeScript types for 15 schema types and 2 GROQ queries** in one file:  
+✅ **TypeScript types generated for 15 schema types and 2 GROQ queries** in a single file:  
 `./src/sanity/types.ts`
 
 ---
 
-This refined version is clearer, uses proper headings, and has a consistent structure! Let me know if you’d like further tweaks! 😊
+This version improves clarity, maintains proper headings, and ensures a consistent structure. Feel free to ask for additional changes! 😊
