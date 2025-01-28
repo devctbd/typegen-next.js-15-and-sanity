@@ -1,25 +1,45 @@
-# typegen-next.js-15-and-sanity
+Here’s a cleaner and more polished version of your `README.md` content:
 
-<p>i will show you how to impliment typgen with next.js 15 and sanity cms latest version </p>
+---
 
-<h2>Generate TypeScript Types </h2>
+# Typegen with Next.js 15 and Sanity CMS
 
-<h1>Extracting schema</h1>
+This guide demonstrates how to implement TypeScript type generation (`typegen`) with Next.js 15 and the latest version of Sanity CMS.
 
-<h1>Copy and past in your pakage.josn file</h1>
+---
 
-<img src="https://i.ibb.co.com/x1zRStR/Screenshot-16.png" alt="devct"/>
+## Generate TypeScript Types
 
-```
+### Step 1: Extracting the Schema
+
+Add the following command to the `scripts` section of your `package.json` file:
+
+```json
 "typegen": "sanity schema extract --path=./src/sanity/extract.json && sanity typegen generate"
-
 ```
 
-<h2> just run this command in your terminal</h2>
+Example screenshot for reference:  
+![Package.json Configuration Example](https://i.ibb.co.com/x1zRStR/Screenshot-16.png)
 
-```
+---
+
+### Step 2: Run the Command
+
+To generate the TypeScript types, simply run the following command in your terminal:
+
+```bash
 npm run typegen
-
 ```
 
-<h2>✅ Generated TypeScript types for 15 schema types and 2 GROQ queries in 1 files into: ./src/sanity/types.ts</h2>
+---
+
+### Result
+
+Once the command is executed successfully, you will see the following confirmation:
+
+✅ **Generated TypeScript types for 15 schema types and 2 GROQ queries** in one file:  
+`./src/sanity/types.ts`
+
+---
+
+This refined version is clearer, uses proper headings, and has a consistent structure! Let me know if you’d like further tweaks! 😊
