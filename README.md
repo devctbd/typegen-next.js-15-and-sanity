@@ -19,7 +19,7 @@ Add the following command to the `scripts` section of your `package.json` file:
 ```
 
 Example screenshot for reference:  
-![Example screenshot for reference](https://i.ibb.co.com/x1zRStR/Screenshot-16.png)
+![Example screenshot for reference](https://i.ibb.co.com/GPTn0rN/sc.png)
 
 ---
 
