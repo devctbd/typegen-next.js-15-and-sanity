@@ -23,7 +23,23 @@ Example screenshot for reference:
 
 ---
 
-### Step 2: Run the Command
+### Step 2: Generate TypeScript Types
+
+create a new json file in your root directory:
+
+```bash
+sanity-typegen.json
+```
+
+```json
+{
+  "path": "./src/**/*.{ts,tsx,js,jsx}",
+  "schema": "./src/sanity/extract.json",
+  "generates": "./src/sanity/types.ts"
+}
+```
+
+### Step 3: Run the Command
 
 To generate the TypeScript types, simply run the following command in your terminal:
 
